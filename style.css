@@ -1,38 +1,36 @@
+@import "reset.css";
+@import "status_bar.css";
+@import "form.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
   font-family:"Roboto";
+  background-color:whitesmoke;
+  color: dimgrey;
 }
 
-body.header h1{
-  font-weight:bolder;
-}
-
-.status-bar {
+.header-status__columns{
+  margin:45px 0px;
+  text-align: center;
   display: flex;
-  justify-content: space-between;
-}
-.status-bar__columns:nth-child(3){
-  display: flex;
-  justify-content:center;
-}
-.header-status__columns {
-  margin-right:5px;
-}
-.header-status__columns p {
-  font-size:25px;
-  font-weight: lighter;
-  font-size-adjust: auto;
-}
-
-#id{
-  display:center;
-  justify-content:center;
-  align-items:center;
-}
-
-#uf{
-  display:center;
-  justify-content:center;
+  flex-direction:column;
   align-items: center;
+  justify-content: center;
+}
+
+.header-status__columns.h1{
+  padding-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+}
+
+.header-text__columns{
+  width:80%;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  flex-direction:column;
 }

@@ -1,0 +1,47 @@
+.status-bar{
+  display:flex;
+  text-align:center;
+  align-items: center;
+  padding: 5px 2px;
+  justify-content:space-between;
+}
+
+.status-bar__columns:first-child{
+  display:flex;
+  justify-content:flex-start;
+  padding-right: 10px;
+}
+
+.status-bar__columns:nth-child(2){
+  padding:10px 0px 10px;
+  display:flex;
+  justify-content:center;
+}
+
+.status-bar__columns:nth-child(3){
+  display:flex;
+  padding:10px 0px 10px;
+  text-align: center;
+}
+
+.status-bar__columns:last-child{
+  justify-content: space-between;
+}
+.status-bar__columns:last-child span{
+  display:flex-end;
+  text-align:flex-end;
+  justify-content:center;
+}
+
+.fas fa-battery-quarter{
+  display:flex;
+  padding-left: 10px;
+}
+
+.fas fa-bolt{
+  transition:10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}

@@ -1,0 +1,23 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "status_bar.css";
+
+
+body {
+  font-family:"Roboto";
+}
+
+header-status__columns{
+  margin-top:20%;
+}
+
+text-status__columns{
+
+}
+password-status__columns{
+
+}
+
+submit-status__columns{
+
+}
