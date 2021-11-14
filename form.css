@@ -1,15 +1,36 @@
-form{
-  display: block;
-  align-items: center;
-  flex-direction: column;
-  vertical-align: middle;
-  text-align: center;
-  justify-content: center;
+#loginform{
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  align-content:center;
+  justify-content: space-between;
 }
 
-#somethingdifferent{
-  display: block;
-  align-items: center;
-  flex-direction: column;
-  vertical-align: middle;
+#loginform input{
+   width:80%;
+   height:43px;
+   margin-top:12px;
+   flex-direction: column;
+   border-style:none;
+   border-width: thick;
+   border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+#loginform input::placeholder{
+  color:rgba(0,0,0,0.5);
+}
+
+#loginform input {
+  outline: none;
+}
+
+#find{
+  padding-top: 5px;
+  margin-top: 5px;
+  font-size:11px;
+}
+
+
+input:focus{
+  color:black solid;
 }

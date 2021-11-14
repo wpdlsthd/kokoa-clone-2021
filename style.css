@@ -5,12 +5,12 @@
 
 body {
   font-family:"Roboto";
-  background-color:whitesmoke;
-  color: dimgrey;
+  background-color:white;
+  color:rgb(0,0,0);
 }
 
 .header-status__columns{
-  margin:45px 0px;
+  margin:35px 0px;
   text-align: center;
   display: flex;
   flex-direction:column;
@@ -19,6 +19,7 @@ body {
 }
 
 .header-status__columns.h1{
+  font-weight:bolder;
   padding-bottom: 10px;
   text-align: center;
   justify-content: center;
@@ -28,7 +29,7 @@ body {
 
 .header-text__columns{
   width:80%;
-  opacity: 0.7;
+  opacity: 0.5;
   display: flex;
   justify-content: center;
   text-align:center;
