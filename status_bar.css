@@ -1,47 +1,52 @@
 .status-bar{
-  display:flex;
+  top:0px;
   text-align:center;
-  align-items: center;
-  padding: 5px 2px;
-  justify-content:space-between;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  box-sizing: border-box;
+  position: fixed;
 }
 
 .status-bar__columns:first-child{
   display:flex;
-  justify-content:flex-start;
-  padding-right: 10px;
+  padding-left:20px;
 }
 
-.status-bar__columns:nth-child(2){
-  padding:10px 0px 10px;
-  display:flex;
-  justify-content:center;
+.fas fa-wifi{
+  display: flex;
 }
 
-.status-bar__columns:nth-child(3){
+.status-bar__columns:nth-child(2) span{
   display:flex;
-  padding:10px 0px 10px;
+  padding-left: 20px;
+  padding-right:10px;
+}
+
+.status-bar__columns:nth-child(3) span{
+  display:flex;
   text-align: center;
+  padding-left: 20px;
 }
 
 .status-bar__columns:last-child{
-  justify-content: space-between;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 .status-bar__columns:last-child span{
-  display:flex-end;
-  text-align:flex-end;
-  justify-content:center;
+  display:flex;
+  padding-left:25px;
+  padding-right: 10px;
 }
 
 .fas fa-battery-quarter{
   display:flex;
-  padding-left: 10px;
+  padding-left:15px;
 }
 
 .fas fa-bolt{
-  transition:10px;
+  transition:7px;
   display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
-
 }
